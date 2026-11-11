@@ -6,7 +6,7 @@
                 sh 'mvn --version'
             }
         }
-		stage('hello'){
+		stage('hello') {
 			steps{
 				echo 'Hello World'
 			}
